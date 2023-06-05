@@ -1,0 +1,26 @@
+nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 3;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    background-color:#ee711eb2
+}
+
+nav .navImg{
+    max-height: 100px;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.active {
+    color: whitesmoke;
+    font-size: larger;
+    text-shadow: 2px 3px 8px rgb(29, 29, 29);
+}

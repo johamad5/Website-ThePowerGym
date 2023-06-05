@@ -1,4 +1,5 @@
 import React from 'react';
+import InfoContainer from '../../components/infoContainer/infoContainer';
 import './frontPage.css';
 
 function FrontPage() {
@@ -10,6 +11,7 @@ function FrontPage() {
 					<p className="legend">Your neighborhood gym</p>
 				</div>
 			</div>
+			<InfoContainer />
 		</>
 	);
 }

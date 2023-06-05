@@ -1,0 +1,29 @@
+
+.infoImg {
+   max-width: 80px;
+   max-height: 80px;
+}
+
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.infoInfo {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+}
+.infoText {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color: orangered;
+}
+
+.infoSubText {
+    font-size: small;
+    color: orangered;
+}
